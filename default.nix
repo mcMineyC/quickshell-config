@@ -5,7 +5,7 @@ pkgs.stdenv.mkDerivation {
   name = "quickshell-config";
 
   buildInputs = with pkgs; [
-    
+    quickshell
   ];
 
   phases = [
